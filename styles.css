@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    background-color: #cbebf8;
+}
+
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 70px;
+}
+
+.header a{
+    font-size: 40px;
+}
+
+.menu {
+    margin: 10px;
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-around;
+    width: 90%;
+    height: 50px;
+    background-color: rgb(94, 172, 182);
+    border-radius: 15px;
+   
+    
+}
+
+.fon{
+    
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+
+.foto1{
+    display: flex;
+    position: absolute;
+    left: 685px;
+    width: 50px;
+    height: 500px;
+}
+
+.foto2{
+    display: flex;
+    position: absolute;
+    left: 10px;
+    width: 100px;
+    height: 500px;
+}
+
+.one {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #000000;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+
+.text1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 700px;
+    height: 45px;
+    background-color: rgb(94, 172, 182);
+    border-radius: 15px;
+}
+
+.text1>h1{
+    margin:0;
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
+}
+
+.info3{
+    display: flex;
+    padding-top: 30px;
+}
+
+.info3  h5{
+    color: #000000;
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    left: 280px;
+    margin: 10px;
+    text-decoration-line: underline;
+    
+}
+
+.foto3{
+    display: flex;
+    position: absolute;
+    left: 16%;
+    margin: 13px;
+}
+
+.info3 h4{
+    color: #000000;
+    font-size: 25px;
+    display: flex;
+    position: absolute;
+    left: 900px;
+    margin: 7px;
+    text-decoration-line: underline;
+}
+
+.info4 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+}
+
+.text6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 700px;
+    height: 45px;
+    background-color: rgb(94, 172, 182);
+    border-radius: 15px;
+}
+
+.text6>h1{
+    margin:0;
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
+}
+
+.foto4{
+    display: flex;
+    position: absolute;
+    left: 59%;
+    margin: 13px;
+}
+
+.info5 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 320px;
+}
+
+.text7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 700px;
+    height: 45px;
+    background-color: rgb(94, 172, 182);
+    border-radius: 15px;
+}
+
+.text7>h1{
+    margin:0;
+    text-align: center;
+    font-size: 24px;
+    color: #000000;
+}
+
+
+.info2 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+    
+}
+
+.gallery-plugin{
+    display: flex;
+    position: absolute;
+    padding-top: 30px;
+    left: 8px;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 1040.13px;
+    height: 500.28px;
+    background: linear-gradient(180deg, #ffffff 0%, #ffffff 100%);
+    border-radius: 15px;
+}
+
+.text2>h1{
+    margin-left:20px;
+    text-align: left;
+    font-size: 24px;
+    color: #000000;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background: rgb(94, 172, 182);
+    margin-top: 70px;
+    
+}
+
+.text3{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    color: #000000;
+}
+
+.text3>p{
+font-size: 20px;   
+text-align: center;
+}
+
+.text3 h2{
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.text3 img{
+    display: flex;
+    position: absolute;
+    left: 27%;
+    margin-top: 15px;
+}
+
+.foot {
+    position: absolute;
+    display: flex;
+    left: 685px;
+    top: 351%;
+    
+    
+}
+
+#viewer {
+    width: 100%px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
